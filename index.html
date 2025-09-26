@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/img/images.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <title>Urna</title>
+</head>
+
+<body>
+    <section id="urna">
+        <div class="tela">
+            <p id="titulo" value="1">VEREADOR</p>
+            <div class="entrada">
+                <label for="num1">Numero:</label>
+                <input type="text" id="num1" required>
+                <input type="text" id="num2" required>
+            </div>
+
+            <div class="informacoes">
+                <label for="nomeCandidato">Nome:</label>
+                <p id="nomeCandidato"></p>
+                <label for="partidoCandidato">Partido:</label>
+                <p id="partidoCandidato"></p>
+                <img src="" alt="" id="foto" height="100px" width="70px">
+            </div>
+        </div>
+        <div class="botoes">
+            <table>
+                <tr>
+                    <td><button onclick="um()" class="teclado" id="1">1</button></td>
+                    <td><button onclick="" class="teclado" id="2">2</button></td>
+                    <td><button onclick="" class="teclado" id="3">3</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="" class="teclado" id="4">4</button></td>
+                    <td><button onclick="" class="teclado" id="5">5</button></td>
+                    <td><button onclick="" class="teclado" id="6">6</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="" class="teclado" id="7">7</button></td>
+                    <td><button onclick="" class="teclado" id="8">8</button></td>
+                    <td><button onclick="" class="teclado" id="9">9</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button onclick="" class="teclado" id="0">0</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="" class="teclado" id="branco">BRANCO</button></td>
+                    <td><button onclick="" class="teclado" id="corrigir">CORRIGIR</button></td>
+                    <td><button onclick="confirmar()" class="teclado" id="confirmar">CONFIRMAR</button></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <button class="opcaoFinal" id="finalizar" onclick="finalizarVoto()"></button>
+    <button class="opcaoFinal" id="proximo" onclick="proximoVoto()"></button>
+</body>
+
+</html>

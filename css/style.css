@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#urna {
+    height: 350px;
+    width: 50%;
+    border-style: solid;
+    background-color: rgb(162, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.tela {
+    border-style: solid;
+    background-color: white;
+    height: 80%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.botoes {
+    height: 80%;
+    width: 30%;
+    background-color: rgb(25, 24, 24);
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.teclado {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#branco {
+    background-color: white;
+    color: black;
+}
+
+#corrigir {
+    background-color: orange;
+}
+
+#confirmar {
+    background-color: green;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 25px;
+    width: 25px;
+}
+
+#nomeCandidato{
+    font-weight: 700;
+}
+#partidoCandidato{
+    font-weight: 700;
+}
+
+.opcaoFinal{
+    font-size: larger;
+    font-weight: bolder;
+}
